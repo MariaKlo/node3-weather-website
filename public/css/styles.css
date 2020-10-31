@@ -7,10 +7,28 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: #916210 url("../img/bg.jpg") no-repeat center center;
 }
 
 .main-content {
     flex-grow: 1;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.main-description {
+    justify-content: space-around;
+    display: flex;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-form {
+    text-align: center;
 }
 
 footer {
@@ -28,6 +46,7 @@ header {
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 header a {

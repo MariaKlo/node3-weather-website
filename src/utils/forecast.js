@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
                 It is currently ${body.current.temperature} degrees out. 
                 It feels like ${body.current.feelslike} degrees out. 
                 The humidity is ${body.current.humidity}%. 
-                The wind speed is ${body.current.wind_speed} kmph.`)
+                The wind speed is ${body.current.wind_speed} kph.`)
         }
     })
 }
