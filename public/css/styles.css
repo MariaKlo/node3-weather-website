@@ -54,6 +54,20 @@ header a {
     margin-right: 16px;
     text-decoration: none;
 }
+.first-link:hover {
+    color: #c9b383;
+    text-decoration: underline;
+}
+
+.second-link:hover {
+    color: #c1af9f;
+    text-decoration: underline;
+}
+
+.third-link:hover {
+    color: #6d5846;
+    text-decoration: underline;
+}
 
 .portrait {
     width: 250px;
@@ -70,4 +84,51 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+.forecast-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    padding: 10px;
+}
+
+#message-1, #message-2{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#message-2 {
+    text-align: end;
+}
+
+#message-3{
+    font-size: 2em;
+    font-weight: 400;
+    margin: auto auto;
+}
+
+#message-2, #message-4, #message-5{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#message-4, #message-5{
+    text-align:left;
+}
+
+.weather-icon{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.main-wrap {
+    display: flex;
 }
