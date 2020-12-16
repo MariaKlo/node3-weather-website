@@ -1,0 +1,134 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #916210 url("../img/bg.jpg") no-repeat center center;
+}
+
+.main-content {
+    flex-grow: 1;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.main-description {
+    justify-content: space-around;
+    display: flex;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-form {
+    text-align: center;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+.first-link:hover {
+    color: #c9b383;
+    text-decoration: underline;
+}
+
+.second-link:hover {
+    color: #c1af9f;
+    text-decoration: underline;
+}
+
+.third-link:hover {
+    color: #6d5846;
+    text-decoration: underline;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+.forecast-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    padding: 10px;
+}
+
+#message-1, #message-2{
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#message-2 {
+    text-align: end;
+}
+
+#message-3{
+    font-size: 1.75em;
+    font-weight: 400;
+    margin: auto auto;
+}
+
+#message-2, #message-4, #message-5{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#message-4, #message-5{
+    text-align:left;
+}
+
+.weather-icon{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.main-wrap {
+    display: flex;
+}
