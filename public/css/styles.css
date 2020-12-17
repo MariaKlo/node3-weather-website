@@ -86,16 +86,16 @@ button {
     padding: 8px;
 }
 
-.forecast-content{
+.forecast-content {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 40% 40%;
 }
 
-.grid-item{
+.grid-item {
     padding: 10px;
 }
 
-#message-1, #message-2{
+#message-1, #message-2 {
     font-size: 1.6em;
     font-weight: 700;
     padding-top: 20px;
@@ -106,22 +106,22 @@ button {
     text-align: end;
 }
 
-#message-3{
-    font-size: 2em;
+#message-3 {
+    font-size: 1.75em;
     font-weight: 400;
     margin: auto auto;
 }
 
-#message-2, #message-4, #message-5{
+#message-2, #message-4, #message-5 {
     font-size: 1em;
     font-weight: 600;
 }
 
-#message-4, #message-5{
+#message-4, #message-5 {
     text-align:left;
 }
 
-.weather-icon{
+.weather-icon {
     display: block;
     margin: auto;
     width: 120px;

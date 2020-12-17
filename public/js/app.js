@@ -40,7 +40,7 @@ weatherForm.addEventListener('submit', (e) => {
                         imgweather.src = "/img/cloud.png"
                         break
                     case ('Patchy rain possible'):
-                        imgweather.src = "/img/cloud.png"
+                        imgweather.src = "/img/light_rain.png"
                         break
                     case ('Partly cloudy'):
                         imgweather.src = "/img/partly_cloudy.png"
@@ -49,6 +49,12 @@ weatherForm.addEventListener('submit', (e) => {
                         imgweather.src = "/img/foggy.png"
                         break
                     case ('Mist'):
+                        imgweather.src = "/img/foggy.png"
+                        break
+                    case ('Patches Of Fog'):
+                        imgweather.src = "/img/foggy.png"
+                        break
+                    case ('Fog'):
                         imgweather.src = "/img/foggy.png"
                         break
                     case ('Freezing Fog'):
@@ -60,19 +66,43 @@ weatherForm.addEventListener('submit', (e) => {
                     case ('Rain'):
                         imgweather.src = "/img/rain.png"
                         break
+                    case ('Patchy rain possible'):
+                        imgweather.src = "/img/rain.png"
+                        break
+                    case ('Light Rain'):
+                        imgweather.src = "/img/light_rain.png"
+                        break
                     case ('Light Rain'):
                         imgweather.src = "/img/light_rain.png"
                         break
                     case ('Light Drizzle'):
                         imgweather.src = "/img/light_rain.png"
                         break
+                    case ('Light Freezing Drizzle'):
+                        imgweather.src = "/img/light_rain.png"
+                        break
+                    case ('Light Rain And Snow'):
+                        imgweather.src = "/img/snow+rain.png"
+                        break
+                    case ('Light Rain And Snow Shower'):
+                        imgweather.src = "/img/snow+rain.png"
+                        break
                     case ('Heavy rain'):
                         imgweather.src = "/img/rain.png"
+                        break
+                    case ('Thunderstorm in Vicinity'):
+                        imgweather.src = "/img/thunderstorm.png"
+                        break
+                    case ('Thunderstorm'):
+                        imgweather.src = "/img/thunderstorm.png"
                         break
                     case ('Moderate or heavy rain shower'):
                         imgweather.src = "/img/rain.png"
                         break
                     case ('Light Snow Shower'):
+                        imgweather.src = "/img/snow.png"
+                        break
+                    case ('Patchy light snow'):
                         imgweather.src = "/img/snow.png"
                         break
                     case ('Light Snow' || 'Light snow'):
