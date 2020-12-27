@@ -42,6 +42,9 @@ weatherForm.addEventListener('submit', (e) => {
                     case ('Patchy rain possible'):
                         imgweather.src = "/img/light_rain.png"
                         break
+                    case ('Shower In Vicinity'):
+                        imgweather.src = "/img/light_rain.png"
+                        break
                     case ('Partly cloudy'):
                         imgweather.src = "/img/partly_cloudy.png"
                         break
